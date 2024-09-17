@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://64.media.tumblr.com/268e759ae3c758ec3eb8bfefc3623c9e/920b990d29e470d6-06/s1280x1920/bf47934998f9fec89a4123428ca7d3efd7e513b8.gifv);
+}
+.box{
+    background-color: springgreen;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 5fr 1fr;
+    grid-template-areas: "cabe cabe cabe"
+                        "menu menu menu"
+                        "pie    pie     pie"
+                        ;
+}
+.box>div{
+    background-color: tomato;
+}
+.box .cabe{
+    background-color: darkviolet;
+    grid-column: cabe;
+}
+.box .menu{
+    background-color: aqua;
+    grid-column: menu;
+}
+.conte{
+    position: relative;
+    height: 300px; width: 1100px;
+}
+.texto{
+    background-color: blue;
+    height: 200px; width: 400px;
+    position: absolute;
+    left: 100px; top: 70px;
+}
+.text{
+    background-color: blue;
+    position: absolute;
+    height: 200px; width: 400px;
+    left: 600px; top: 70px;
+}
+.live{
+    width: 450px;
+}
+.box .pie{
+    background-color: red;
+    grid-column: pie;
+}
+.p{
+    background-color: green;
+    margin: 10px;
+    height: 90px;
+}
+.p1{
+    background-color: green;
+    margin: 10px;
+    height: 90px;
+}
+}
